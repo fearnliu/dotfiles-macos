@@ -65,4 +65,9 @@
 !.docker
 !.docker/daemon.json
 
+# GnuPG
+!.gnupg
+!.gnupg/gpg.conf
+!.gnupg/gpg-agent.conf
+
 #################### End Excepting ####################
