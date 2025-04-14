@@ -31,4 +31,8 @@
 !.config/fzf
 !.config/fzf/config.zsh
 
+# GitHub CLI
+!.config/gh
+!.config/gh/config.yml
+
 #################### End Excepting ####################
