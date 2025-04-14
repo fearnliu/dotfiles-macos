@@ -80,4 +80,7 @@
 # iTerm2
 !.iterm2_shell_integration.zsh
 
+# npm
+!.npmrc
+
 #################### End Excepting ####################
