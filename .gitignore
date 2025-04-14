@@ -74,6 +74,10 @@
 !.pyenv
 !.pyenv/version
 
+# rbenv
+!.rbenv
+!.rbenv/version
+
 # SSH
 !.ssh
 !.ssh/config
