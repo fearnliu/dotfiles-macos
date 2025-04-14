@@ -27,4 +27,8 @@
 !.config/direnv
 !.config/direnv/direnv.toml
 
+#fzf
+!.config/fzf
+!.config/fzf/config.zsh
+
 #################### End Excepting ####################
