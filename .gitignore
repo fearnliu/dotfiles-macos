@@ -16,4 +16,7 @@
 !.gitconfig
 !.gitignore
 
+# EditorConfig
+!.editorconfig
+
 #################### End Excepting ####################
