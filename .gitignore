@@ -43,4 +43,8 @@
 !.config/pip
 !.config/pip/pip.conf
 
+# Python Poetry
+!.config/pypoetry
+!.config/pypoetry/config.toml
+
 #################### End Excepting ####################
