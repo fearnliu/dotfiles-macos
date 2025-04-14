@@ -57,5 +57,8 @@
 !.config/waveterm/widgets.json
 !.config/waveterm/bookmarks.json
 
+# Zed
+!.config/zed
+!.config/zed/settings.json
 
 #################### End Excepting ####################
