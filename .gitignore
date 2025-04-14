@@ -47,4 +47,8 @@
 !.config/pypoetry
 !.config/pypoetry/config.toml
 
+# Starship
+!.config/starship
+!.config/starship/config.toml
+
 #################### End Excepting ####################
