@@ -70,4 +70,11 @@
 !.gnupg/gpg.conf
 !.gnupg/gpg-agent.conf
 
+# SSH
+!.ssh
+!.ssh/config
+!.ssh/hosts
+!.ssh/hosts/github.com
+!.ssh/hosts/github.com/config
+
 #################### End Excepting ####################
