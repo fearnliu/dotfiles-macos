@@ -78,6 +78,10 @@
 !.rbenv
 !.rbenv/version
 
+# rustup
+!.rustup
+!.rustup/settings.toml
+
 # SSH
 !.ssh
 !.ssh/config
