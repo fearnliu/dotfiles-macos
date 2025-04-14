@@ -61,4 +61,8 @@
 !.config/zed
 !.config/zed/settings.json
 
+# Docker
+!.docker
+!.docker/daemon.json
+
 #################### End Excepting ####################
