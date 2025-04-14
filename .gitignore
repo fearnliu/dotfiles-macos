@@ -19,4 +19,8 @@
 # EditorConfig
 !.editorconfig
 
+# BAT
+!.config/bat
+!.config/bat/config
+
 #################### End Excepting ####################
