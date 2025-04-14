@@ -39,4 +39,8 @@
 !.config/lazygit
 !.config/lazygit/config.yml
 
+# pip
+!.config/pip
+!.config/pip/pip.conf
+
 #################### End Excepting ####################
