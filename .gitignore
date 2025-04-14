@@ -77,4 +77,7 @@
 !.ssh/hosts/github.com
 !.ssh/hosts/github.com/config
 
+# iTerm2
+!.iterm2_shell_integration.zsh
+
 #################### End Excepting ####################
