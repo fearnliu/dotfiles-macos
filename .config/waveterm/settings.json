@@ -1,0 +1,8 @@
+{
+  "autoupdate:channel": "latest",
+  "tab:preset": "bg@tropical-radiance",
+  "term:fontfamily": "CascadiaCodeNF-Italic",
+  "term:fontsize": 14,
+  "term:theme": "dracula",
+  "window:savelastwindow": false
+}

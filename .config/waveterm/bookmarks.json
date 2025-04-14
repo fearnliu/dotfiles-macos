@@ -1,0 +1,29 @@
+{
+  "bookmark@google": {
+    "url": "https://www.google.com",
+    "title": "Google"
+  },
+  "bookmark@claude": {
+    "url": "https://claude.ai",
+    "title": "Claude AI"
+  },
+  "bookmark@wave": {
+    "url": "https://waveterm.dev",
+    "title": "Wave Terminal",
+    "display:order": -1
+  },
+  "bookmark@wave-github": {
+    "url": "https://github.com/wavetermdev/waveterm",
+    "title": "Wave Github",
+    "iconurl": "https://github.githubassets.com/favicons/favicon-dark.png"
+  },
+  "bookmark@chatgpt": {
+    "url": "https://chatgpt.com",
+    "iconurl": "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico"
+  },
+  "bookmark@wave-pulls": {
+    "url": "https://github.com/wavetermdev/waveterm/pulls",
+    "title": "Wave Pull Requests",
+    "iconurl": "https://github.githubassets.com/favicons/favicon-dark.png"
+  }
+}

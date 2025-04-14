@@ -51,4 +51,11 @@
 !.config/starship
 !.config/starship/config.toml
 
+# Wave Terminal
+!.config/waveterm
+!.config/waveterm/settings.json
+!.config/waveterm/widgets.json
+!.config/waveterm/bookmarks.json
+
+
 #################### End Excepting ####################

@@ -1,0 +1,12 @@
+{
+    "defwidget@sysinfo": {
+        "icon": "microchip",
+        "label": "CPU",
+        "blockdef": {
+            "meta": {
+                "view": "sysinfo",
+                "sysinfo:type": "CPU + Mem"
+            }
+        }
+    }
+}
