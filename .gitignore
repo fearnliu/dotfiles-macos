@@ -1,0 +1,13 @@
+# Ignore everything in $HOME folder
+*
+
+
+#################### Begin Excepting ####################
+
+!LICENSE
+!README.md
+
+# Git
+!.gitignore
+
+#################### End Excepting ####################
