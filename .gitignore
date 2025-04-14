@@ -35,4 +35,8 @@
 !.config/gh
 !.config/gh/config.yml
 
+# Lazygit
+!.config/lazygit
+!.config/lazygit/config.yml
+
 #################### End Excepting ####################
