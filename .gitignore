@@ -70,6 +70,10 @@
 !.gnupg/gpg.conf
 !.gnupg/gpg-agent.conf
 
+# pyenv
+!.pyenv
+!.pyenv/version
+
 # SSH
 !.ssh
 !.ssh/config
