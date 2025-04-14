@@ -86,4 +86,10 @@
 # Vim
 !.vimrc
 
+# Zsh
+!.zshenv
+!.zprofile
+!.zshrc
+!.zlogout
+
 #################### End Excepting ####################
