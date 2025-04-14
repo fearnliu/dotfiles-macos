@@ -23,4 +23,8 @@
 !.config/bat
 !.config/bat/config
 
+# direnv
+!.config/direnv
+!.config/direnv/direnv.toml
+
 #################### End Excepting ####################
