@@ -27,9 +27,6 @@ export GPG_TTY=$(tty)
 # java
 export JAVA_HOME="$(/usr/libexec/java_home)"
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-
 # poetry
 export POETRY_CONFIG_DIR="$XDG_CONFIG_HOME/pypoetry"
 export POETRY_HOME="$HOME/.local/share/pypoetry"

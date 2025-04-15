@@ -25,13 +25,6 @@ function javahome {
   java -version
 }
 
-# pyenv
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - zsh)"
-
-# pyenv-virtualenv
-eval "$(pyenv virtualenv-init -)"
-
 # rust
 . "$HOME/.cargo/env"
 

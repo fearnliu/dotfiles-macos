@@ -123,10 +123,6 @@ fi
 alias proxy_on="export https_proxy=http://127.0.0.1:7890; export http_proxy=http://127.0.0.1:7890; export all_proxy=socks5://127.0.0.1:7890"
 alias proxy_off="unset https_proxy; unset http_proxy; unset all_proxy"
 
-# To fix brew doctor's warning ""config" scripts exist outside your system or Homebrew directories"
-# reference: https://github.com/pyenv/pyenv?tab=readme-ov-file#homebrew-in-macos
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
-
 # wrap brew command
 alias brewup="brew update; brew upgrade; brew autoremove; brew cleanup; brew doctor"
 
