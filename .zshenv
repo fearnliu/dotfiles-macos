@@ -7,13 +7,13 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 # network proxy
-NO_PROXY_LOCAL="10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,fe80::/10,fd00::/8,127.0.0.0/8,127.0.0.1,::1,localhost,*.local"
-NO_PROXY_APPLE="169.254/16,time.apple.com,timestamp.apple.com,sequoia.apple.com,seed-sequoia.siri.apple.com"
+NO_PROXY_LOCAL="10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.168.0.0/16,fc00::/7,fe80::/10,127.0.0.0/8,127.0.0.1,::1,localhost,*.local"
+NO_PROXY_APPLE="time.apple.com,timestamp.apple.com,sequoia.apple.com,seed-sequoia.siri.apple.com,captive.apple.com"
 NO_PROXY_DOCKER="192.168.65.0/24,*.docker.internal"
 export no_proxy="${NO_PROXY_LOCAL},${NO_PROXY_APPLE},${NO_PROXY_DOCKER}"
-#export http_proxy="http://127.0.0.1:7890"
-#export https_proxy="http://127.0.0.1:7890"
-#export all_proxy="socks5://127.0.0.1:7890"
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="http://127.0.0.1:7890"
+export all_proxy="socks5://127.0.0.1:7890"
 unset NO_PROXY_APPLE; unset NO_PROXY_LOCAL; unset NO_PROXY_DOCKER
 
 # golang
