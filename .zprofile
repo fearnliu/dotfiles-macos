@@ -28,10 +28,6 @@ function javahome {
 # rust
 . "$HOME/.cargo/env"
 
-# rbenv
-# ruby-build should be placed after rust environment
-eval "$(rbenv init - --no-rehash zsh)"
-
 # mise
 # should be placed after other tools
 eval "$(mise activate zsh)"
