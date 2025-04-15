@@ -39,6 +39,10 @@
 !.config/lazygit
 !.config/lazygit/config.yml
 
+# mise
+!.config/mise
+!.config/mise/config.toml
+
 # pip
 !.config/pip
 !.config/pip/pip.conf
