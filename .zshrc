@@ -72,7 +72,7 @@ HIST_STAMPS="%m/%d/%Y %T"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  # git
+  direnv # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/direnv
   docker # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
   golang # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang
   # kubectl # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl
@@ -137,9 +137,6 @@ alias lf="eza --all --classify --git --group --icons --long --smart-group"
 
 
 ######################################## Begin Environment ########################################
-
-# direnv
-eval "$(direnv hook zsh)"
 
 # fzf
 source <(fzf --zsh)
