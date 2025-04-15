@@ -31,6 +31,10 @@
 !.config/fzf
 !.config/fzf/config.zsh
 
+# Ghostty
+!.config/ghostty
+!.config/ghostty/config
+
 # GitHub CLI
 !.config/gh
 !.config/gh/config.yml

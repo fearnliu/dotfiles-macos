@@ -1,0 +1,20 @@
+
+auto-update = download
+
+background-opacity = 0.88
+background-blur = true
+
+bold-is-bright = true
+
+font-family = Cascadia Code NF
+font-size = 16
+font-style = italic
+
+macos-icon = retro
+
+quit-after-last-window-closed = true
+
+theme = light:catppuccin-macchiato,dark:Blue Matrix
+
+working-directory = /Users/fearnliu/spaces/
+
