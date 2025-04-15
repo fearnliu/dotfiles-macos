@@ -78,7 +78,6 @@ plugins=(
   # kubectl # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl
   macos  # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
   npm    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm
-  z      # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -140,6 +139,10 @@ alias lf="eza --all --classify --git --group --icons --long --smart-group"
 
 # fzf
 source <(fzf --zsh)
+
+# zoxide
+# https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
 
 ######################################## End Environment ########################################
 
