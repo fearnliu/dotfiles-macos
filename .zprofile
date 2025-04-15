@@ -25,13 +25,6 @@ function javahome {
   java -version
 }
 
-# rust
-. "$HOME/.cargo/env"
-
-# rbenv
-# should be placed after rust environment
-eval "$(rbenv init - --no-rehash zsh)"
-
 # pyenv
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
@@ -39,12 +32,15 @@ eval "$(pyenv init - zsh)"
 # pyenv-virtualenv
 eval "$(pyenv virtualenv-init -)"
 
-# fnm
-# node should be placed after python environment
-eval "$(fnm env --use-on-cd --shell zsh)"
+# rust
+. "$HOME/.cargo/env"
+
+# rbenv
+# ruby-build should be placed after rust environment
+eval "$(rbenv init - --no-rehash zsh)"
 
 # mise
-# should be placed at the last
+# should be placed after other tools
 eval "$(mise activate zsh)"
 
 # user-specific executable files
