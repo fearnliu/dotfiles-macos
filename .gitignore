@@ -27,6 +27,10 @@
 !.config/direnv
 !.config/direnv/direnv.toml
 
+# fd
+!.config/fd
+!.config/fd/ignore
+
 #fzf
 !.config/fzf
 !.config/fzf/config.zsh
