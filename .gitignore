@@ -7,20 +7,21 @@
 !LICENSE
 !README.md
 
+# .cache folder
+!.cache
+!.cache/Icon?
+
+# .cargo folder
+!.cargo
+!.cargo/Icon?
+
 # .config folder
 !.config
-
-# Git
-!.config/git
-!.config/git/ignore
-!.gitconfig
-!.gitignore
-
-# EditorConfig
-!.editorconfig
+!.config/Icon?
 
 # BAT
 !.config/bat
+!.config/bat/Icon?
 !.config/bat/config
 
 # direnv
@@ -33,69 +34,125 @@
 
 #fzf
 !.config/fzf
+!.config/fzf/Icon?
 !.config/fzf/.fzfrc
-
-# Ghostty
-!.config/ghostty
-!.config/ghostty/config
 
 # GitHub CLI
 !.config/gh
+!.config/gh/Icon?
 !.config/gh/config.yml
+
+# Ghostty
+!.config/ghostty
+!.config/ghostty/Icon?
+!.config/ghostty/config
+
+# Git
+!.config/git
+!.config/git/Icon?
+!.config/git/ignore
+
+# GitHub Copilot
+!.config/github-copilot
+!.config/github-copilot/Icon?
+
+# iTerm2
+!.config/iterm2
+!.config/iterm2/Icon?
+
+# jgit
+!.config/jgit
+!.config/jgit/Icon?
 
 # Lazygit
 !.config/lazygit
+!.config/lazygit/Icon?
 !.config/lazygit/config.yml
 
 # mise
 !.config/mise
+!.config/mise/Icon?
 !.config/mise/config.toml
 
 # pip
 !.config/pip
+!.config/pip/Icon?
 !.config/pip/pip.conf
 
 # Python Poetry
 !.config/pypoetry
+!.config/pypoetry/Icon?
 !.config/pypoetry/config.toml
 
 # Starship
 !.config/starship
+!.config/starship/Icon?
 !.config/starship/config.toml
 
 # Wave Terminal
 !.config/waveterm
+!.config/waveterm/Icon?
 !.config/waveterm/settings.json
 !.config/waveterm/widgets.json
 !.config/waveterm/bookmarks.json
 
+# Wireshark
+!.config/wireshark
+!.config/wireshar/Icon?
+
 # Zed
 !.config/zed
+!.config/zed/Icon?
 !.config/zed/settings.json
 
 # Docker
 !.docker
+!.docker/Icon?
 !.docker/daemon.json
+
+# EditorConfig
+!.editorconfig
+
+# Git
+!.gitconfig
+!.gitignore
 
 # GnuPG
 !.gnupg
+!.gnupg/Icon?
 !.gnupg/gpg.conf
 !.gnupg/gpg-agent.conf
 
 # pyenv
 !.pyenv
+!.pyenv/Icon?
 !.pyenv/version
 
 # rbenv
 !.rbenv
+!.rbenv/Icon?
 !.rbenv/version
 
 # rustup
 !.rustup
+!.rustup/Icon?
 !.rustup/settings.toml
+
+# spaces folder
+!spaces
+!spaces/Icon?
+!spaces/companies
+!spaces/companies/Icon?
+!spaces/repos
+!spaces/repos/Icon?
+!spaces/repos/github.com
+!spaces/repos/github.com/Icon?
+!spaces/softwares
+!spaces/softwares/Icon?
 
 # SSH
 !.ssh
+!.ssh/Icon?
 !.ssh/config
 !.ssh/hosts
 !.ssh/hosts/github.com
