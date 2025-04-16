@@ -11,9 +11,9 @@ NO_PROXY_LOCAL="10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.0.0/
 NO_PROXY_APPLE="time.apple.com,timestamp.apple.com,sequoia.apple.com,seed-sequoia.siri.apple.com,captive.apple.com"
 NO_PROXY_DOCKER="192.168.65.0/24,*.docker.internal"
 export no_proxy="${NO_PROXY_LOCAL},${NO_PROXY_APPLE},${NO_PROXY_DOCKER}"
-export http_proxy="http://127.0.0.1:7890"
-export https_proxy="http://127.0.0.1:7890"
-export all_proxy="socks5://127.0.0.1:7890"
+# export http_proxy="http://127.0.0.1:7890"
+# export https_proxy="http://127.0.0.1:7890"
+# export all_proxy="socks5://127.0.0.1:7890"
 unset NO_PROXY_APPLE; unset NO_PROXY_LOCAL; unset NO_PROXY_DOCKER
 
 # golang
