@@ -33,7 +33,7 @@
 
 #fzf
 !.config/fzf
-!.config/fzf/config.zsh
+!.config/fzf/.fzfrc
 
 # Ghostty
 !.config/ghostty

@@ -1,0 +1,28 @@
+--ansi
+
+--style=full
+
+--height=~100%
+
+--layout=reverse-list
+--border
+
+--highlight-line
+--pointer=➡️
+--marker=☑️
+--ellipsis=...
+
+--info=inline-right
+
+--preview="
+  if (file -b --mime-type {} | grep -q '^image/') && command -v imgcat &>/dev/null; then
+    chafa --clear --margin-bottom=4 --margin-right=4 --view-size=${FZF_PREVIEW_COLUMNS}x${FZF_PREVIEW_LINES} --colors=full --symbols=all {}
+  elif [[ -f {} ]] &>/dev/null; then
+    bat --terminal-width $FZF_PREVIEW_COLUMNS --force-colorization --line-range=:200 {} || cat {}
+  elif [[ -d {} ]] &>/dev/null; then
+    (tree -a -C {} | less) || ls -al
+  else
+    echo {} 2>/dev/null
+  fi
+"
+--preview-window=right:80%:wrap

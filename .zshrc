@@ -138,6 +138,10 @@ alias lf="eza --all --classify --git --group --icons --long --smart-group"
 ######################################## Begin Environment ########################################
 
 # fzf
+# https://junegunn.github.io/fzf
+export FZF_DEFAULT_COMMAND="fd --color=always --no-ignore-parent --follow --hidden --hyperlink=auto"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_DEFAULT_OPTS_FILE="$HOME/.config/fzf/.fzfrc"
 source <(fzf --zsh)
 
 # zoxide
