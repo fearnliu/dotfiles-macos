@@ -25,6 +25,12 @@ set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
 
+if &term =~ 'xterm'
+  let &t_SI = "\e[6 q"   " 插入模式：竖线光标
+  let &t_EI = "\e[2 q"   " 普通模式：方块光标
+endif
+
+
 " 修正 vim 删除/退格键行为"
 " 原生的 vim 行为有点怪"
 " 如果你在一行的开头切换到插入模式，这时按退格无法退到上一行"
@@ -65,7 +71,7 @@ set history=1000
 "================================================================"
 
 " 写入文件时采用的编码类型"
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set fileencodings=utf-8
 
 " 输出到终端时采用的编码类型"
 set termencoding=utf-8
