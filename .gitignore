@@ -7,7 +7,7 @@
 !LICENSE
 !README.md
 
-# .config folder
+# .config/ folder
 !.config
 
 # Git
@@ -15,9 +15,6 @@
 !.config/git/ignore
 !.gitconfig
 !.gitignore
-
-# EditorConfig
-!.editorconfig
 
 # BAT
 !.config/bat
@@ -31,23 +28,23 @@
 !.config/fd
 !.config/fd/ignore
 
-#fzf
+# fzf
 !.config/fzf
 !.config/fzf/.fzfrc
-
-# Ghostty
-!.config/ghostty
-!.config/ghostty/config
 
 # GitHub CLI
 !.config/gh
 !.config/gh/config.yml
 
+# Ghostty
+!.config/ghostty
+!.config/ghostty/config
+
 # Lazygit
 !.config/lazygit
 !.config/lazygit/config.yml
 
-# mise
+# mise-en-place
 !.config/mise
 !.config/mise/config.toml
 
@@ -90,7 +87,7 @@
 !.rbenv
 !.rbenv/version
 
-# rustup
+# Rustup
 !.rustup
 !.rustup/settings.toml
 
@@ -100,6 +97,9 @@
 !.ssh/hosts
 !.ssh/hosts/github.com
 !.ssh/hosts/github.com/config
+
+# EditorConfig
+!.editorconfig
 
 # iTerm2
 !.iterm2_shell_integration.zsh

@@ -7,14 +7,13 @@ background-blur = true
 bold-is-bright = true
 
 font-family = Cascadia Code NF
-font-size = 16
-font-style = italic
+font-family-italic = MonaspiceRn Nerd Font Mono
+font-size = 14
 
 macos-icon = retro
 
 quit-after-last-window-closed = true
 
-theme = light:catppuccin-macchiato,dark:Blue Matrix
+theme = light:tokyonight_moon,dark:Blue Matrix
 
 working-directory = /Users/fearnliu/spaces/
-
