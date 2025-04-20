@@ -126,7 +126,7 @@ alias proxy_off="unset https_proxy; unset http_proxy; unset all_proxy"
 alias brewup="brew update; brew upgrade; brew autoremove; brew cleanup; brew doctor"
 
 # wrap eza command
-alias lf="eza --all --classify --git --group --icons --long --smart-group"
+alias lf="eza --long --classify --color=automatic --icons --all --group-directories-first --header --modified --created --git --git-repos --time-style=long-iso --no-filesize --no-user"
 
 ######################################## End Alias ########################################
 
@@ -196,17 +196,14 @@ fi
 
 TRAPINT() {
   # ^C was pressed
-  echo "TRAPINT() called: ^C was pressed"
 }
 
 TRAPQUIT() {
   # ^\\ was pressed
-  echo "TRAPQUIT() called: ^\\ was pressed"
 }
 
 TRAPTERM() {
   # a 'kill' command was aimed at this program's process ID
-  echo "TRAPTERM() called: a 'kill' command was aimed at this program's process ID"
 }
 
 TRAPEXIT() {
