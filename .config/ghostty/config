@@ -6,8 +6,7 @@ background-blur = true
 
 bold-is-bright = true
 
-font-family = Cascadia Code NF
-font-family-italic = MonaspiceRn Nerd Font Mono
+font-family = Monaspace Neon Var
 font-size = 14
 
 macos-icon = retro
